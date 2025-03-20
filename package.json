@@ -1,0 +1,34 @@
+{
+  "name": "learning-react",
+  "version": "1.0.0",
+  "description": "React 01",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shauryauniyaal/Learning-React.git"
+  },
+  "keywords": [],
+  "author": "Shaurya Uniyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shauryauniyaal/Learning-React/issues"
+  },
+  "homepage": "https://github.com/shauryauniyaal/Learning-React#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.1.5",
+    "react-router-dom": "^7.1.5"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

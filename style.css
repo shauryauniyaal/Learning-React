@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.logo {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  padding: 0 2em;
+  font-family: Bebas Neue;
+  font-size: 1.5em;
+}
+
+.name {
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  padding: 10px 11rem;
+  box-shadow: 0px 3px 10px 1 rgba(0, 0, 0, 0.163);
+}
+
+body {
+  margin: 0;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-items a {
+  list-style: none;
+  font-size: 15px;
+  margin: 2em;
+  text-decoration: none;
+  font-weight: normal;
+  color: rgb(47, 47, 47);
+  font-family: Open Sans;
+}
+
+.nav-items a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.filter-btn {
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(163, 163, 163);
+  padding: 7px;
+  border: 1px solid rgb(202, 200, 200);
+  transition: all 0.2s ease;
+  box-shadow: 0 0 5px 2 rgba(0, 0, 0, 0.062);
+  font-weight: normal;
+  font-family: Open Sans;
+}
+
+.filter-btn:hover {
+  background-color: rgb(246, 246, 246);
+}
+
+.res-card {
+  font-family: Roboto;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(17, 11, 11);
+  overflow: hidden;
+  position: relative;
+  height: 320px;
+  transition: all 0.3s ease;
+}
+
+.card {
+  padding: 0;
+  width: 250px;
+  border-radius: 10px;
+  height: 320px;
+  margin: 20px;
+}
+
+.res-img {
+  object-fit: cover;
+}
+
+.res-card h4 {
+  margin: 0;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  color: rgb(53, 53, 53);
+}
+
+.cuisines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.res-card .rating {
+  border-radius: 0;
+  color: rgb(255, 255, 255);
+  height: fit-content;
+  width: fit-content;
+  margin: 10px 45%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.rating-low {
+  background-color: rgb(204, 12, 12);
+}
+
+.rating-med {
+  background-color: rgb(231, 209, 9);
+}
+
+.rating-high {
+  background-color: rgb(37, 190, 37);
+}
+
+.res-card:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 10 rgba(48, 48, 48, 0.303);
+  transform: scale(1.05);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.res-card h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px 5px 0px 5px;
+  margin: 0;
+}
+
+.shimmer-card {
+  background-color: rgb(237, 237, 237);
+  height: 300px;
+}
+
+.img-container {
+  width: 100%;
+  border-radius: 10px;
+  height: 150px;
+  background-color: rgb(222, 222, 222);
+}
+
+.i-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 40%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.i-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  height: 150px;
+  width: 250px;
+}
+
+.search {
+  margin-left: 100px;
+  border: 1px solid rgb(202, 200, 200);
+  padding: 7px;
+  font-weight: normal;
+  font-family: Open Sans;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  color: rgb(99, 99, 99);
+}
+
+.search-btn {
+  margin: 20px 0px 0px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(163, 163, 163);
+  padding: 7px;
+  border: 1px solid rgb(202, 200, 200);
+  transition: all 0.2s ease;
+  box-shadow: 0 0 5px 2 rgba(0, 0, 0, 0.062);
+  font-weight: normal;
+  font-family: Open Sans;
+}
+
+.search-btn:hover {
+  background-color: rgb(215, 58, 58);
+  color: aliceblue;
+  border-color: rgb(255, 255, 255);
+}
+
+.search:active {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.error-msg {
+  font-family: Open Sans;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(140, 140, 140);
+}
+
+.error {
+  margin-top: 10%;
+}
+
+.menu-item {
+  list-style: none;
+  padding: 10px;
+}
+
+.res-container a {
+  text-decoration: none;
+}
+
+.res-name {
+  font-family: Open Sans;
+  text-align: center;
+}
+
+.res-menu {
+  text-align: center;
+  font-family: roboto;
+}
+
+.menu-item {
+  width: 750px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.res-menu ul {
+  padding: 0;
+  margin: 0 auto;
+  width: 750px;
+}
+
+.user-card {
+  border: 1px solid rgb(98, 98, 98);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
