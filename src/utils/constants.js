@@ -8,4 +8,4 @@ export const MENU_URL =
   "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.6048262&lng=77.3317246&restaurantId=";
 
 export const RESLIST_URL =
-  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6048262&lng=77.3317246&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.63270&lng=77.21980&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
